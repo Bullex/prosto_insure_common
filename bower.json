@@ -1,4 +1,8 @@
 {
-  "name": "PInsure_Common",
-  "description": "Prosto Insure Common Files"
+  "name": "pinsure_common",
+  "description": "Prosto Insure Common Files",
+  "ignore": [
+    ".gitignore",
+    "readme.md"
+  ]
 }
