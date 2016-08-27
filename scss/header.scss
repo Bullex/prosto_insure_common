@@ -6,6 +6,11 @@
   border-color: #cfd1d8;
 }
 .header {
+  &.header {
+    .container {
+      margin-bottom: 0px !important;
+    }
+  }
   .navbar {
     .divider {
       float: left;
