@@ -11,6 +11,17 @@
       margin-bottom: 0px !important;
     }
   }
+  
+  .btn:active, .btn.active,
+  .btn:focus, .btn.focus,
+  .btn.active:focus, .btn.active.focus,
+  .btn:active:focus, .btn:active.focus {
+    outline: 0;
+    background-image: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  
   .navbar {
     .divider {
       float: left;
@@ -37,6 +48,33 @@
         font-size: 12px;
         margin-left: 6px;
       }
+    }
+  }
+  .btn-insure{
+    display: block;
+    background-color: #f5f4f3;
+    border: 1px solid #cfd1d8;
+    overflow: hidden;
+    margin-bottom: 20px;
+
+    &:hover {
+      background-color: #fff;
+    }
+    .pull-left {
+      text-align: left;
+      width: 60%;
+      font-size: 20px;
+      line-height: 20px;
+      margin-top: 8px;
+      margin-bottom: 8px;
+      color: #1abc9c;
+    }
+    .pull-right {
+      text-align: right;
+      width: 40%;
+      height: 36px;
+      font-size: 13px;
+      color: #000;
     }
   }
 }
